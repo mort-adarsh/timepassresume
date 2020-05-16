@@ -1,0 +1,222 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+
+p{
+   line-height: 2;
+}
+
+h1 {
+  color: #40bfc1;
+   height: 150px;
+  font-size: 7vw;
+  margin: 20px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+ /*   padding-bottom: 10px;*/
+  font-size: 2.6vw;
+  text-decoration: bold;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+
+h3 {
+  color: #11999E;
+  font-weight: 1400;
+   font-family: 'Montserrat', sans-serif;
+}
+
+hr
+{
+   border-style: dotted none none;
+   width: 5%;
+   position: relative;
+   border-color: #A1A1A1;
+   border-width: 6px;
+   margin-top: 100px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 100px;
+}
+
+a {
+  color: #116667;
+   font-family: 'Montserrat', sans-serif;
+   margin: 10px 20px;
+   text-decoration: none;
+}
+
+a:hover{
+color: #EAF6F6;
+}
+/*.pro {
+  text-decoration: underline;
+}
+*/
+.top-container {
+
+  background-color: #edf7fa;
+  padding-top: 50px;
+  margin:auto;
+}
+.intro
+{
+  width: 30%;
+  margin: auto;
+}
+.middle-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottom-container {
+background-color: #66BFBF;
+padding-bottom: 20px;
+padding-top: 50px;
+}
+
+.top-cloud {
+  position: relative;
+/*  margin-left: -5px; */
+  margin-top: 50px;
+  margin-bottom: 50px;
+ animation: myfirst 11s linear infinite;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 23%;
+  margin-top: 80px;
+  animation: mysecond 19s linear infinite;
+}
+
+@keyframes myfirst {
+    0%   {left:-60vw;}
+    100% {left: 58vw;}
+}
+
+@keyframes mysecond {
+    0%   {left: -16vw;}
+    100% {left: 98vw;}
+}
+
+
+.mount{
+ margin-top: 100px;
+}
+
+.mypic
+{ padding-top: 40px;
+  border-radius: 100%;
+
+}
+
+.skill-row
+{
+ width: 50%;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 100px;
+ margin-bottom: 100px;
+ text-align: left;
+
+}
+
+.pic1
+{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.pic2
+{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.con-msg{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.btn {
+	font-weight:bold;
+	text-decoration:none;
+font-family: 'Montserrat', sans-serif;
+	box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 3px 2px;
+	o-box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 3px 2px;
+	-moz-box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 3px 2px;
+	-webkit-box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 3px 2px;
+	background:#11cdd4;
+	background:-o-linear-gradient(90deg, #11cdd4, #11999e);
+	background:-moz-linear-gradient( center top, #11cdd4 5%, #11999e 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #11cdd4), color-stop(1, #11999e) );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#11cdd4', endColorstr='#11999e');
+	background:-webkit-linear-gradient(#11cdd4, #11999e);
+	background:-ms-linear-gradient(#11cdd4, #11999e);
+	background:linear-gradient(#11cdd4, #11999e);
+	text-indent:0px;
+	line-height:30px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:10px;
+	text-align:center;
+	vertical-align:middle;
+	display:inline-block;
+	font-size:20px;
+	color:#ffffff;
+	width:167px;
+	height:30px;
+	padding:11px;
+	text-shadow:#6daac2 2px 2px 0px;
+	border-color:#659dab;
+	border-width:2px;
+	border-style:solid;
+}
+
+.btn:hover {
+	background:#2bc4ad;
+	background:-o-linear-gradient(90deg, #2bc4ad, #30e3cb);
+	background:-moz-linear-gradient( center top, #2bc4ad 5%, #30e3cb 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #11999e), color-stop(1, #30e3cb) );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2bc4ad', endColorstr='#30e3cb');
+	background:-webkit-linear-gradient(#2bc4ad, #30e3cb);
+	background:-ms-linear-gradient(#2bc4ad, #30e3cb);
+	background:linear-gradient(#2bc4ad, #30e3cb);
+}
+.copy
+{
+  color: #ffffff;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 720px)
+{
+  h1{
+    font-size: 50px;
+    height: 70px;
+  }
+    h2{
+    font-size: 20px;
+  }
+
+  img{
+    width: 60%;
+  }
+  .top-cloud, .bottom-cloud{
+    width: 20%;
+  }
+}
+
