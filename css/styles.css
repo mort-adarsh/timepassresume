@@ -60,7 +60,7 @@ color: #EAF6F6;
 }
 */
 .top-container {
-
+   overflow: hidden;
   background-color: #edf7fa;
   padding-top: 50px;
   margin:auto;
